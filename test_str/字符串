@@ -1,0 +1,17 @@
+1、字符串类型及操作
+str.lower()或str.upper()  全部字符小写或大写
+    如："AbcDe".lower()结果是"abcde"
+str.split(sep=None)  返回一个列表，由str根据sep被分隔的部分组成
+    如："A,B,C".split(",")结果是['A','B','C']
+str.count(sub)  返回子串sub在str中出现的次数
+    如："an apple a day".count("a")结果为4
+str.replace(old,new)  返回字符串str副本，所有old子串被替换为new
+    如："python".replace("n","n123.i0")结果为"python123.io"
+str.center(width[,fillchar])  字符串str根据宽度width居中, fillchar可选，表示填充字符
+    如："python".center(20,"=")结果为'=======python======='
+str.strip(chars)  从str中去掉在其左侧和右侧chars中列出的字符
+    如："= python= ".strip(" =np")结果为"ytho"
+str.join(iter)  在iter变量除最后元素外每个元素后增加一个str
+    如："," . join("12345")结果为"1,2,3,4,5" #主要用于字符串分隔等
+
+2、字符串的格式化
